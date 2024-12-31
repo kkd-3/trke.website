@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أفضل الأنشطة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe5e5;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ff4d4d;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        ol {
+            flex: 1 1 300px;
+            margin: 0;
+            padding: 0 20px;
+        }
+        ol li {
+            margin-bottom: 10px;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            flex: 1 1 300px;
+            justify-content: center;
+        }
+        figure {
+            text-align: center;
+            width: 120px;
+        }
+        figure img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 2px solid #ff4d4d;
+            border-radius: 10px;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>أفضل الأنشطة</h1>
+    </header>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">مقدمة</a>
+        <a href="cities.html">المدن</a>
+        <a href="gallery.html">المعرض</a>
+        <a href="links.html">روابط مفيدة</a>
+    </nav>
+    <main>
+        <ol>
+            <li>زيارة الأسواق التركية التقليدية.</li>
+            <li>ركوب المناطيد في كابادوكيا.</li>
+            <li>استكشاف المساجد التاريخية.</li>
+            <li>الاستمتاع بالطبيعة في بولو وأبانت.</li>
+        </ol>
+        <div class="images">
+            <figure>
+                <img src="images/activities.html (2).jpg" alt="سوق تركي">
+                <figcaption>سوق تركي</figcaption>
+            </figure>
+            <figure>
+                <img src="images/activities.html.jpg" alt="مناطيد كابادوكيا">
+                <figcaption>مناطيد كابادوكيا</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cities.html (3).jpg" alt="مسجد تاريخي">
+                <figcaption>مسجد تاريخي</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery.html (2).jpg" alt="طبيعة خلابة">
+                <figcaption>طبيعة خلابة</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 - موقع تركيا
+    </footer>
+</body>
+</html>
